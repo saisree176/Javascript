@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="category-management">
+        <h1>Category Management</h1>
+        <div id="create-category-section">
+            <h2>Create a Category</h2>
+            <input type="text" id="category-name" placeholder="Category Name">
+            <button id="create-category">Create Category</button>
+        </div>
+
+        <div id="user-info">
+            <h2>Get User</h2>
+            <button id="get-user">Get User</button>
+            <div id="user-details"></div>
+        </div>
+
+        <div id="add-user-to-category-section">
+            <h2>Add User to Category</h2>
+            <select id="category-select">
+            </select>
+            <button id="add-user-to-category">Add User to Category</button>
+        </div>
+
+        <div id="fetch-categories-section">
+            <h2>Display Saved Categories</h2>
+            <button id="fetch-categories">Fetch Categories</button>
+            <div id="category-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
